@@ -1,0 +1,17 @@
+id: GUNMUtech
+name: "棍穆科技"
+depends: []
+pluginDepends: []
+version: "demo v0.0.1"
+description: "这附属怎么啥也没有啊？"
+authors: ["DiAMONDGAMER"]
+repo: "DiAMONDGR/GUNMU-tech_RSC"
+loadStartTexts:
+- "~GUNMU~"
+- "我去我去，正在加载棍穆科技！！！"
+- "一定要加载成功口牙！"
+- "~AIR~"
+enabledTexts:
+- "~GUNMU~"
+- "GUNMU tech loaded successfully!"
+- "~AIR~"

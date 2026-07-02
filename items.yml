@@ -1,0 +1,26 @@
+GUNMU_TECH_ITEM_AIR_COMPRESSED_1:
+  item_group: gunmu_tech_group_material_basic
+  item:
+    name: "&d空气结晶"
+    material: NETHER_STAR
+    glow: true
+    lore:
+      - ""
+      - "&f这是什么啊, 为什么我能看到它...?"
+      - ""
+      - "&7文件类型"
+      - "&7WinRAR 压缩文件"
+    recipe_type: PRESSURE_CHAMBER
+    recipe:
+      5:
+        material_type: slimefun
+        material: GUNMU_TECH_AIR_COMPRESSED_1
+
+GUNMU_TECH_ITEM_AIR_1:
+  item_group: gunmu_tech_group_material_basic
+  item:
+    name: "&7小坨空气"
+    material: WHITE_DYE
+    lore:
+      - ""
+      - "&f小小的也很可爱"

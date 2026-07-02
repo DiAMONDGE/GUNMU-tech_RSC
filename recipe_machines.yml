@@ -1,0 +1,53 @@
+GUNMU_TECH_MACHINE_AIR_UNZIPPER_1:
+  item_group: gunmu_tech_group_machines_basic
+  item:
+    name: "&f空气&c炸&f锅&r - &eI"
+    material: GLASS
+    lore:
+      - ""
+      - "&f可以&c非常吃力&f地"
+      - "&f把空气&c炸&f开!!"
+      - "&f盒盒盒..."
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: GUNMU_TECH_ITEM_AIR_COMPRESSED_1
+    2:
+      material: IRON_INGOT
+    3:
+      material_type: slimefun
+      material: GUNMU_TECH_ITEM_AIR_COMPRESSED_1
+    4:
+      material: IRON_INGOT
+    5:
+      material: GLASS
+    6:
+      material: IRON_INGOT
+    7:
+      material_type: slimefun
+      material: STEEL_INGOT
+    8:
+      material_type: slimefun
+      material: MEDIUM_CAPACITOR
+    9:
+      material_type: slimefun
+      material: STEEL_INGOT
+  capacity: 1225
+  input: [10]
+  output: [14,15,16]
+  energyPerCraft: 49
+  recipes:
+    air_compressed_1_unzip:
+      forDisplay: false
+      seconds: 3
+      input:
+        1:
+          material_type: slimefun
+          material: GUNMU_TECH_ITEM_AIR_COMPRESSED_1
+      output:
+        1:
+          material_type: slimefun
+          material: GUNMU_TECH_ITEM_AIR_1
+          amount: 6
+  speed: 1

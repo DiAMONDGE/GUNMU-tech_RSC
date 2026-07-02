@@ -1,0 +1,24 @@
+gunmu_tech_group_main:
+  type: parent
+  item: 
+    name: "&e&l棍穆科技"
+    material: STRUCTURE_VOID
+    glow: true
+#主分类ovo
+
+gunmu_tech_group_material_basic:
+  tier: 1
+  type: sub
+  parent: gunmu_tech_group_main
+  item:
+    name: "&e&l棍穆科技&r - &b&l基本材料"
+    material: IRON_INGOT
+#这个就先用来放材料叭
+
+gunmu_tech_group_machines_basic:
+  tier: 3
+  type: sub
+  parent: gunmu_tech_group_main
+  item:
+    name: "&e&l棍穆科技&r - &f&l简单机器"
+    material: IRON_BLOCK
