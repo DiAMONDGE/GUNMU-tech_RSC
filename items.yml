@@ -1,26 +1,97 @@
-GUNMU_TECH_ITEM_AIR_COMPRESSED_1:
-  item_group: gunmu_tech_group_material_basic
+GUNMU_TECH_DEVELOPER_NULL:
+  item_group: gunmu_tech_group_developer
   item:
-    name: "&d空气结晶"
-    material: NETHER_STAR
-    glow: true
+    name: "&7NULL"
+    material: STONE
     lore:
       - ""
-      - "&f这是什么啊, 为什么我能看到它...?"
+      - "&7似乎还没有做出来呢……"
       - ""
-      - "&7文件类型"
-      - "&7WinRAR 压缩文件"
-    recipe_type: PRESSURE_CHAMBER
-    recipe:
-      5:
-        material_type: slimefun
-        material: GUNMU_TECH_AIR_COMPRESSED_1
+      - "&c棍穆科技 开发者"
 
 GUNMU_TECH_ITEM_AIR_1:
   item_group: gunmu_tech_group_material_basic
   item:
-    name: "&7小坨空气"
+    name: "&f小团空气"
+    material: GHAST_TEAR
+    lore:
+      - ""
+      - "&7小小的也很可爱"
+      - "&8不稳定."
+      - ""
+      - "&e棍穆科技 基本材料"
+
+GUNMU_TECH_ITEM_AIR_2:
+  item_group: gunmu_tech_group_material_basic
+  item:
+    name: "&e空气簇"
     material: WHITE_DYE
     lore:
       - ""
-      - "&f小小的也很可爱"
+      - "&7超级轻!"
+      - "&8不稳定."
+      - ""
+      - "&e棍穆科技 基本材料"
+
+GUNMU_TECH_ITEM_AIR_3:
+  item_group: gunmu_tech_group_material_basic
+  item:
+    name: "&d空气团"
+    material: SNOWBALL
+    lore:
+      - ""
+      - "&7它有点分量……"
+      - "&8不稳定."
+      - ""
+      - "&e棍穆科技 基本材料"
+
+GUNMU_TECH_ITEM_AIR_1_STB:
+  item_group: gunmu_tech_group_material_basic
+  item:
+    name: "&e稳定的 &f小团空气"
+    material: GOLD_NUGGET
+    glow: true
+    lore:
+      - ""
+      - "&7小小的也很可爱"
+      - "&7终于稳定下来了——"
+      - ""
+      - "&e棍穆科技 基本材料"
+
+GUNMU_TECH_ITEM_AIR_2_STB:
+  item_group: gunmu_tech_group_material_basic
+  item:
+    name: "&e稳定的 &e空气簇"
+    material: YELLOW_DYE
+    glow: true
+    lore:
+      - ""
+      - "&7超级轻!"
+      - "&7终于稳定下来了——"
+      - ""
+      - "&e棍穆科技 基本材料"
+
+GUNMU_TECH_ITEM_AIR_3_STB:
+  item_group: gunmu_tech_group_material_basic
+  item:
+    name: "&e稳定的 &d空气团"
+    material: MAGMA_CREAM
+    glow: true
+    lore:
+      - ""
+      - "&7它有点分量……"
+      - "&7终于稳定下来了——"
+      - ""
+      - "&e棍穆科技 基本材料"
+
+GUNMU_TECH_ITEM_AIR_PIECE:
+  item_group: gunmu_tech_group_material_basic
+  item:
+    name: "&b&l零散气体"
+    material: WIND_CHARGE
+    glow: true
+    lore:
+      - ""
+      - "&7出乎意料的是, 它很稳定."
+      - ""
+      - "&e棍穆科技 基本材料"

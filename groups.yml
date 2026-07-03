@@ -6,6 +6,14 @@ gunmu_tech_group_main:
     glow: true
 #主分类ovo
 
+gunmu_tech_group_developer:
+  type: sub
+  parent: gunmu_tech_group_main
+  item:
+    name: "&c&l棍穆科技&8 - &e&l开发者"
+    material: BARRIER
+    glow: true
+
 gunmu_tech_group_material_basic:
   tier: 1
   type: sub
@@ -16,9 +24,19 @@ gunmu_tech_group_material_basic:
 #这个就先用来放材料叭
 
 gunmu_tech_group_machines_basic:
-  tier: 3
+  tier: 2
   type: sub
   parent: gunmu_tech_group_main
   item:
     name: "&e&l棍穆科技&r - &f&l简单机器"
     material: IRON_BLOCK
+#存放简单配方机器
+
+gunmu_tech_group_generators_basic:
+  tier: 3
+  type: sub
+  parent: gunmu_tech_group_main
+  item:
+    name: "&e&l棍穆科技&r - &e&l简单生成器"
+    material: SEA_LANTERN
+#存放简单生成器

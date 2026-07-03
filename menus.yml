@@ -1,45 +1,97 @@
-GUNMU_TECH_MACHINE_AIR_UNZIPPER_1:
-  title: "&f空气&c炸&f锅&r - &eI"
+GUNMU_TECH_MACHINE_AIR_ZIPPER_1:
+  title: "&e空气压缩器&8 - &eI"
   slots:
-    0:
+    0-9:
       name: "&f"
       material: BLACK_STAINED_GLASS_PANE
-    2-4:
-      name: "&f"
-      material: BLACK_STAINED_GLASS_PANE
-    8-9:
-      name: "&f"
-      material: BLACK_STAINED_GLASS_PANE
-    11:
-      name: "&f"
-      material: BLACK_STAINED_GLASS_PANE
-    13:
+    11-13:
       name: "&f"
       material: BLACK_STAINED_GLASS_PANE
     17-18:
       name: "&f"
       material: BLACK_STAINED_GLASS_PANE
+    20:
+      name: "&f"
+      material: BLACK_STAINED_GLASS_PANE
+    22:
+      name: "&f"
+      material: BLACK_STAINED_GLASS_PANE
+    26-27:
+      name: "&f"
+      material: BLACK_STAINED_GLASS_PANE
+    29-31:
+      name: "&f"
+      material: BLACK_STAINED_GLASS_PANE
+    35-36:
+      name: "&f"
+      material: BLACK_STAINED_GLASS_PANE
+    38-40:
+      name: "&f"
+      material: BLACK_STAINED_GLASS_PANE
+    44-53:
+      name: "&f"
+      material: BLACK_STAINED_GLASS_PANE
+    37:
+      name: "&b输入"
+      material: CYAN_STAINED_GLASS_PANE
+    41-43:
+      name: "&6输出"
+      material: ORANGE_STAINED_GLASS_PANE
+    21:
+      name: "&fovo"
+      material: GLASS_PANE
+      progressbar: true
+
+GUNMU_TECH_MACHINE_AIR_UNZIPPER_1:
+  title: "&f空气&c炸&f锅&r &8- &eI"
+  slots:
+    0:
+      name: "&f"
+      material: GRAY_STAINED_GLASS_PANE
+    2-4:
+      name: "&f"
+      material: GRAY_STAINED_GLASS_PANE
+    8-9:
+      name: "&f"
+      material: GRAY_STAINED_GLASS_PANE
+    11:
+      name: "&f"
+      material: GRAY_STAINED_GLASS_PANE
+    13:
+      name: "&f"
+      material: GRAY_STAINED_GLASS_PANE
+    17-18:
+      name: "&f"
+      material: GRAY_STAINED_GLASS_PANE
     20-22:
       name: "&f"
-      material: BLACK_STAINED_GLASS_PANE
+      material: GRAY_STAINED_GLASS_PANE
     26:
       name: "&f"
-      material: BLACK_STAINED_GLASS_PANE
+      material: GRAY_STAINED_GLASS_PANE
     1:
-      name: "&b"
+      name: "&b输入"
       material: LIGHT_BLUE_STAINED_GLASS_PANE
     19:
-      name: "&b"
+      name: "&b输入"
       material: LIGHT_BLUE_STAINED_GLASS_PANE
     5-7:
-      name: "&6"
+      name: "&6输出"
       material: ORANGE_STAINED_GLASS_PANE
     23-25:
-      name: "&6"
+      name: "&6输出"
       material: ORANGE_STAINED_GLASS_PANE
     12:
-      name: "&f摸鱼时间~"
-      material: CLOCK
+      name: "&f装填弹药中……"
+      material: END_CRYSTAL
       lore:
-        - "&7笨蛋!"
+        - "&7啊呀骇死我力"
+      glow: true
       progressbar: true
+
+GUNMU_TECH_MACHINE_AIR_ZIPPED_GEN_1:
+  title: "&b空气捕获器&8 - &eI"
+  slots:
+    0:
+      name: "&f"
+      material: LIME_STAINED_GLASS_PANE

@@ -1,13 +1,94 @@
+GUNMU_TECH_MACHINE_AIR_ZIPPER_1:
+  item_group: gunmu_tech_group_machines_basic
+  item:
+    name: "&e空气压缩器&8 - &eI"
+    material: BLUE_STAINED_GLASS
+    lore:
+      - ""
+      - "&7这样真的不会爆炸吗……?"
+      - "&7先试试吧……"
+      - ""
+      - "&e棍穆科技 简单机器"
+      - "&8⇨ &7速度: 1x"
+      - "&8⇨ &e⚡ &71225 J 可储存"
+      - "&8⇨ &e⚡ &750 J/s"
+  capacity: 1225
+  energyPerCraft: 25
+  input: [10,19,28]
+  output: [14,15,16,23,24,25,32,33,34]
+  recipes:
+    AIR_1_UNSTB:
+      seconds: 4
+      input:
+        1:
+          material_type: slimefun
+          material: GUNMU_TECH_ITEM_AIR_1
+          amount: 4
+      output:
+        1:
+          material_type: slimefun
+          material: GUNMU_TECH_ITEM_AIR_2
+          chance: 25
+          amount: 1
+        2:
+          material_type: slimefun
+          material: GUNMU_TECH_ITEM_AIR_PIECE
+          chance: 50
+          amount: 1
+    AIR_2_UNSTB:
+      seconds: 6
+      input:
+        1:
+          material_type: slimefun
+          material: GUNMU_TECH_ITEM_AIR_2
+          amount: 4
+      output:
+        1:
+          material_type: slimefun
+          material: GUNMU_TECH_ITEM_AIR_3
+          chance: 25
+          amount: 1
+        2:
+          material_type: slimefun
+          material: GUNMU_TECH_ITEM_AIR_PIECE
+          chance: 75
+          amount: 2
+    AIR_3_UNSTB:
+      seconds: 8
+      input:
+        1:
+          material_type: slimefun
+          material: GUNMU_TECH_ITEM_AIR_3
+          amount: 4
+      output:
+        1:
+          material_type: slimefun
+          material: GUNMU_TECH_ITEM_AIR_4
+          chance: 25
+          amount: 1
+        2:
+          material_type: slimefun
+          material: GUNMU_TECH_ITEM_AIR_PIECE
+          chance: 100
+          amount: 4
+  speed: 1
+
 GUNMU_TECH_MACHINE_AIR_UNZIPPER_1:
   item_group: gunmu_tech_group_machines_basic
   item:
-    name: "&f空气&c炸&f锅&r - &eI"
+    name: "&f空气&c炸&f锅&r &8- &eI"
     material: GLASS
     lore:
       - ""
-      - "&f可以&c非常吃力&f地"
-      - "&f把空气&c炸&f开!!"
-      - "&f盒盒盒..."
+      - "&7可以&c非常吃力&7地"
+      - "&7把空气&c炸&7开!!"
+      - ""
+      - "&8盒盒盒..."
+      - ""
+      - "&e棍穆科技 简单机器"
+      - "&8⇨ &7速度: 1x"
+      - "&8⇨ &e⚡ &71250 J 可储存"
+      - "&8⇨ &e⚡ &78 J/s"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -36,7 +117,7 @@ GUNMU_TECH_MACHINE_AIR_UNZIPPER_1:
   capacity: 1225
   input: [10]
   output: [14,15,16]
-  energyPerCraft: 49
+  energyPerCraft: 24
   recipes:
     air_compressed_1_unzip:
       forDisplay: false
